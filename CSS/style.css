@@ -17,16 +17,27 @@ p {
     text-align: center;
 }
 
-nav{
+nav {
     width: 74%;
     padding: 1%;
     background-color: #FFD22E;
+    outline: 1px solid red
 }
 
+.nav {
+    width: 100%;
+}
 ul {
     width: 50%;
     margin-left: auto;
 }
+
+nav li{
+    display: inline-block;
+    float: right;
+    padding: 10px;
+}
+
 
 .button {
     width: 150px;

@@ -1,3 +1,11 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -9,31 +17,36 @@
     text-align: center;
 }
 
-nav {
-    width: 73%;
+nav{
+    width: 74%;
     padding: 1%;
+    background-color: #FFD22E;
 }
 
 ul {
-  width: 50%;
-  margin-left: auto;  
+    width: 50%;
+    margin-left: auto;
 }
 
-.heroImg {
-    height: 600px;
-    padding: 25px;
-}
-
-.content {
-    width: 500px;
-    margin: 0 auto;
-}
-
-footer {
-    background-color: #373738;
-}
-
-.footerNav {
-    display: inline-block;
-    vertical-align: top;
-}
+.button {
+    width: 150px;
+    height: 45px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid black;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    }
+      
+      .button:hover {
+        background-color: #90AD9E;
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+        color: #000000;
+        transform: translateY(-6px);
+      }

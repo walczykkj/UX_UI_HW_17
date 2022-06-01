@@ -4,7 +4,7 @@
   }
   
 main {
-    margin: 5%
+    margin: 2%
 }
 body {
     font-family: 'Lexend Deca', sans-serif;
@@ -30,9 +30,9 @@ header {
     background-color: #FFD22E;
 }
 
-ul {
+nav ul {
     width: 100%;
-    padding: 10px 15px;
+    padding-top: 10px;
     
 }
 
@@ -107,16 +107,43 @@ h2 {
         transform: translateY(-6px);
       }
 
-      .footer {
-        position: absolute;
+      footer {
+        left: 0;
         bottom: 0;
         width: 100%;
-        height: 2.5rem;            /* Footer height */
+        /*border-top: #FFD22E solid;*/
+
+        
+        
       }
 
-      footer li {
-        display: inline;
-        float: right;
-        padding: 5px;
-        margin-right: 25px;
-    }
+      .footerButton {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        color: #000;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        }
+
+        .footerButton img {
+            vertical-align: middle;
+        }
+          
+          .footerButton:hover {
+            background-color: #90AD9E;
+            box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+            color: #000000;
+            transform: translateY(-6px);
+          }
+
+        
+
+        .footer-buttons li {
+            margin: 0.5rem;
+            float: right;
+            list-style: none
+        }

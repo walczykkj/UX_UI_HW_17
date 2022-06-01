@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="./CSS/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <!-- fonts -->
@@ -9,28 +9,38 @@
     </head>
     <body>
         <header class="navigation">
-            <div class="nav inline-block logo"> 
+            <div class="inline-block"> 
+                <a href="#"><img class= "logo" src="./images/kw.svg" alt="logo: kw"></a>
                 <nav class="inline-block">
-                    <img src="/images/kw.svg">
                     <ul class="nav">
-                        <li>Projects</li>
-                        <li>About Me</li>
-                        <li>Contact</li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Projects</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+        <main>
         <section class="heroImg">
             <div class="content">
-                <img src="/images/placeholder-image.png">
-                <p>I’m a multi-disciplinary designer focused on inclusive design and accessibility. I’m interested in creating digital experiences that are not only beautiful but also intuitive and easy to use for as many people as possible.</p> 
-
-                <p>User Research | User Empathy | Qualitative Interviews
-                    Wireframing & UI Prototyping | Interaction Design
-                    Visual Communication</p>
+                <img id="about-img" src="./images/about-photo.jpg" alt="woman wearing a yellow hat and purple jacket in a forest with a white dog">
+                <h2>A bit about me...</h2>
+                <br>
+                <p class="about-text">I’m a multi-disciplinary designer focused on inclusive design and accessibility. I’m interested in creating digital experiences that are not only beautiful but also intuitive and easy to use for as many people as possible.</p> 
+                <br>
+                <p class="about-text">My professional background is in e-learning development and multimedia content creation. I've spent a lot of time trying to empathize with learners and create high quality learning experiences to meet their needs. I enrolled in the University of Toronto UX/UI Bootcamp to broaden my skills in user research and design.    
+                </p>
+                <br>
+                <p>I've worked on projects spanning from designing and prototyping mobile applications to redesigning existing websites.
+                </p>
+                <br>
+                <p>When I'm not in front of my laptop, I'm probably getting lost in a forest with my dog, Kasper.</p>
+                <br>
                 <button class="button">Download Resume</button>    
             </div>
         </section>
+    </main>
         <footer>
             <ul>
                 <li>Projects</li>

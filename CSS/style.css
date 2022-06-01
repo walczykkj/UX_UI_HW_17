@@ -1,3 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+main {
+    margin: 5%
+}
 body {
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -6,39 +14,76 @@ p {
     font-weight: 300;
 }
 
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
-}
+
 
 .logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+    height: 40px;
+    padding: 5px 20px;
+    float: left;
 }
 
-nav {
-    width: 74%;
-    padding: 1%;
-    background-color: #FFD22E;
-    outline: 1px solid red
-}
 
-.nav {
+
+header {
     width: 100%;
+    height: 50px;
+    background-color: #FFD22E;
 }
+
 ul {
-    width: 50%;
-    margin-left: auto;
+    width: 100%;
+    padding: 10px 15px;
+    
 }
 
-nav li{
-    display: inline-block;
+nav li {
+    display: inline;
     float: right;
-    padding: 10px;
+    padding: 5px;
+    margin-right: 25px;
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:#000
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    font-weight: 500;
 
+  }
+
+.heroImg {
+    padding: 2%;   
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.content img {
+    float:left;
+    padding: 30px;
+    width: 400px
+
+    
+}
 .button {
     width: 150px;
     height: 45px;
@@ -61,3 +106,17 @@ nav li{
         color: #000000;
         transform: translateY(-6px);
       }
+
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;            /* Footer height */
+      }
+
+      footer li {
+        display: inline;
+        float: right;
+        padding: 5px;
+        margin-right: 25px;
+    }
